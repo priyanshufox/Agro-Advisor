@@ -2,6 +2,7 @@ Here’s a `README.md` file for your React Native app built with **Expo**, **Nat
 
 ---
 Landing page : https://agro-advisor-hero-page.vercel.app/
+![Image](https://github.com/user-attachments/assets/84a0c93e-2bdd-45d0-8376-407f36e79ae9)
 
 ````markdown
 # 📱 Smart Assistant React Native App
