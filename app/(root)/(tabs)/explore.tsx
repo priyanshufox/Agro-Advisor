@@ -5,8 +5,7 @@ import { FlatList, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'r
 import { KeyboardAvoidingView, Platform, SafeAreaView } from 'react-native';
 
 
-const geminiKey = "AIzaSyAzelLEY-o3hK_FMd_mAsnJcydO4c00fnw"
-
+const geminiKey = ApiKey
 type Message = {
   text: string;
   sender: "user" | "gemini";
@@ -54,7 +53,7 @@ const explore = () => {
     }
 
     try {
-      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${geminiKey}`, {
+      const response = await fetch(`apilink`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
