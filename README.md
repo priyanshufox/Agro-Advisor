@@ -125,7 +125,7 @@ const fetchGeminiResponse = async (prompt) => {
 
 ## 🧑‍💻 Author
 
-* **Your Name** – [@yourgithub](https://github.com/yourusername)
+* **Your Name** – [@yourgithub](https://github.com/priyanshufox)
 
 ---
 
