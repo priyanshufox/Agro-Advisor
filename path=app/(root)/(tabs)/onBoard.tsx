@@ -1,0 +1,1 @@
+<View className='text-xl border-b-2 flex justify-between border-gray-200 p-4 mb-2' key={name.id}> 
